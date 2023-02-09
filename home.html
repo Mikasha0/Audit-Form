@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <my-header></my-header>
+    <script src="header.js"></script>
+    <div class="container-fluid g-0">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="other-page">
+              <h1>
+                We Focus On Helping Clients Design And Build Tomorrow's
+                Organization
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Blanditiis numquam laudantium eaque fuga sunt commodi modi
+                dolores dolorem sint voluptates molestias harum accusamus, nam
+                corporis, ipsum voluptatibus beatae similique omnis?
+              </p>
+              <div class="buttons">
+                <button class="btn-all">Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide"><img src="" alt="" /></div>
+          <div class="swiper-slide">Slide 3</div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <section class="what-we-do">
+      <div class="container">
+        <div class="section-heading">
+          <span>WHAT WE DO</span>
+          <h2>We provide the Perfect Solution to your business growth</h2>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-3">
+            <div class="social-icons"><i class="bi bi-1-square"></i></div>
+            <h3>Our Vision</h3>
+            <p>
+              Our firm continuity strives to be the Premier Accounting and
+              Consultancy firm that provides exvellent service to our clients
+              and an excellent quality of life for our associates.
+            </p>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="social-icons"><i class="bi bi-1-square"></i></div>
+            <h3>Our Mission</h3>
+            <p>
+              Our firm continuity strives to be the Premier Accounting and
+              Consultancy firm that provides exvellent service to our clients
+              and an excellent quality of life for our associates.
+            </p>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="social-icons"><i class="bi bi-1-square"></i></div>
+            <h3>Our Objective</h3>
+            <p>
+              Our firm continuity strives to be the Premier Accounting and
+              Consultancy firm that provides exvellent service to our clients
+              and an excellent quality of life for our associates.
+            </p>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="social-icons"><i class="bi bi-1-square"></i></div>
+            <h3>Excellence in Services</h3>
+            <p>
+              Our firm continuity strives to be the Premier Accounting and
+              Consultancy firm that provides exvellent service to our clients
+              and an excellent quality of life for our associates.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid d-flex justify-content-center py-4">
+        <div class="about-us row row-cols-1 row-cols-md-4">
+          <div class="col">
+            <i class="bi bi-1-square"></i>
+            <p>Completed Projects</p>
+            <h2>100 +</h2>
+          </div>
+          <div class="col">
+            <i class="bi bi-1-square"></i>
+            <p>Completed Projects</p>
+            <h2>20 %</h2>
+          </div>
+          <div class="col">
+            <i class="bi bi-1-square"></i>
+            <p>Completed Projects</p>
+            <h2>$10M</h2>
+          </div>
+          <div class="col">
+            <i class="bi bi-1-square"></i>
+            <p>Completed Projects</p>
+            <h2>2 yrs</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <contact-us></contact-us>
+    <script src="contact-us.js"></script>
+    <subscribe-us></subscribe-us>
+    <script src="subscribe.js"></script>
+    <my-footer></my-footer>
+    <script src="footer.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        // Navigation arrows
+        // navigation: {
+        //   nextEl: ".swiper-button-next",
+        //   prevEl: ".swiper-button-prev",
+        // },
+      });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
