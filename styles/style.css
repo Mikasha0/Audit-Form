@@ -291,3 +291,10 @@ footer ul li a {
 .other-page p{
   color: white;
 }
+.our-memories .row .card{
+  padding:0.5rem;
+}
+.our-memories .row p{
+  padding:1rem;
+  color:#000;
+}
