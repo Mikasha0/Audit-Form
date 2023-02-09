@@ -2,7 +2,7 @@ class MyHeader extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <div class="head container-fluid">
-      <ul>
+      <ul class="d-sm-flex gap-md-4 gap-sm-0 gap-lg-5 justify-content-center">
         <li>
           <a href=""><i class="bi bi-telephone"></i>+977 9805674141</a>
         </li>
@@ -21,7 +21,7 @@ class MyHeader extends HTMLElement {
     </div>
     <header class="sticky-top">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-top">
+        <nav class="navbar navbar-expand-lg navbar-top py-4 ">
           <a class="navbar-brand" href="index.html">
             <!-- <img class="logo" src="./img/logo.webp" alt="..." /> -->
             <span class="">Logo</span>

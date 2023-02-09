@@ -107,13 +107,16 @@ video {
 }
 .head ul{
   list-style: none;
-  display: flex;
-  justify-content: center;
-  gap:5rem;
   text-align: center;
   margin-bottom: 0;
-  padding:0.2rem
+  padding:0.2rem 0rem;
 }
+@media (width <= 576px) {
+  .head ul{
+    display: none;
+  }
+}
+
 .form-info .card {
     height: 100%;
     border: none;
@@ -297,4 +300,12 @@ footer ul li a {
 .our-memories .row p{
   padding:1rem;
   color:#000;
+}
+.our-memories .container .memories-info{
+  display:flex;
+  gap:3rem;
+}
+.our-memories .container .memories-info p{
+  color: #000;
+  padding-top: 1rem;
 }
