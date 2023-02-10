@@ -61,8 +61,8 @@ p {
   color: var(--color-text);
 }
 a {
-  text-decoration: none;
-  color: var(--color-primary);
+  text-decoration: underline;
+  color: var(--color-secondary);
 }
 h1,
 h2,
@@ -412,4 +412,7 @@ text-decoration: underline;
 }
 .section-help .container h3{
   color:#fff;
+}
+.career .container p:last-of-type{
+  padding-top: 2rem;
 }
