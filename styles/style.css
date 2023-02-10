@@ -41,6 +41,7 @@ html {
   padding: 1rem 3rem;
   border-radius: 0.6rem;
   border: none;
+  margin-left: 1rem;
 }
 .other-second-btn{
   display: inline-block;
@@ -402,5 +403,13 @@ color:var(--color-secondary);
 text-decoration: underline;
 }
 .section-help{
-  background-color:var(--color-primary)
+  background-color:var(--color-primary);
+}
+.section-help .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-help .container h3{
+  color:#fff;
 }
