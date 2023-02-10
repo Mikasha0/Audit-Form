@@ -4,7 +4,7 @@ class MyFooter extends HTMLElement {
     <footer>
       <div class="container">
         <div class="row g-4 g-md-5 justify-content-around">
-          <div class="col-12 col-md-6 col-lg-3">
+          <div class="col-12 col-md-12 col-lg-3">
             <h5>LOGO</h5>
             <p>
               Our boundless imagination helps us to help business solve their
@@ -15,7 +15,7 @@ class MyFooter extends HTMLElement {
             <a href="#"><i class="bi bi-reddit"></i> </a>
             <a href="#"><i class="bi bi-linkedin"></i> </a>
           </div>
-          <div class="col-12 col-md-6 col-lg-2">
+          <div class="col-12 col-md-12 col-lg-2">
             <h4>USEFUL LINKS</h4>
             <ul>
               <li><a href="#">ANZSCO codes</a></li>
@@ -27,7 +27,7 @@ class MyFooter extends HTMLElement {
               <li><a href="#">Ask a expert</a></li>
             </ul>
           </div>
-          <div class="col-12 col-md-6 col-lg-3">
+          <div class="col-12 col-md-12 col-lg-3">
             <h4>OUR SERVICES</h4>
             <ul>
               <li><a href="#">CDR Report Writing</a></li>

@@ -358,3 +358,46 @@ footer ul li a {
   background-blend-mode: multiply;
   background-position: top;
 }
+.our-services .container .row .card{
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-top: none;
+  border-left: none;
+}
+.our-services .container .row .col-12 {
+  border-right:none;
+  border-bottom: 1px solid #000;
+  border-top: none;
+  border-left: none;
+}
+.publications .container .row .card{
+  border:1px solid var(--color-secondary);
+  border-radius:0.8rem;
+}
+.publications .container .row .card-body .bordered-icon i{
+  position: relative;
+  }
+.publications .container .row .card-body .bordered-icon{
+  position: relative;
+  padding: 0.5rem 0.8rem;
+  font-size: var(--h4-fontsize);
+  background: var(--color-secondary);
+  color: #fff;
+  width: fit-content;
+  border-radius: 0.2rem;
+}
+.publications .container .row .card-body .bordered-icon::before{
+  position: absolute;
+  content: "";
+  top: 0px;
+  right: -9px;
+  border-top: 2rem solid;
+  border-left: 2rem solid transparent;
+}
+.publications .container .row .card-body p{
+  padding:1.5rem 0.5rem 0.5rem 2.5rem;
+}
+.publications .container .row .card-body a p{
+color:var(--color-secondary);
+text-decoration: underline;
+}
