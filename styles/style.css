@@ -401,3 +401,6 @@ footer ul li a {
 color:var(--color-secondary);
 text-decoration: underline;
 }
+.section-help{
+  background-color:var(--color-primary)
+}
