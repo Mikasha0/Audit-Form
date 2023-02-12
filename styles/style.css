@@ -362,6 +362,11 @@ footer ul li a {
   background-blend-mode: multiply;
   background-position: top;
 }
+@media (width<=768px) {
+  #swiper .swiper-slide .buttons .other-second-btn{
+    margin-top: 1.5rem;
+  }
+}
 .publications .container .row .card{
   border:1px solid var(--color-secondary);
   border-radius:0.8rem;
@@ -447,4 +452,7 @@ text-decoration: underline;
     border:1px solid #00000037;
     border-width: 0 0 1px;
   }
+}
+.swiper-second {
+  position:static;
 }

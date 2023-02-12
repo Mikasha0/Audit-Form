@@ -12,8 +12,8 @@ class MyFooter extends HTMLElement {
             </p>
             <a href="#"><i class="bi-twitter"></i></a>
             <a href="#"><i class="bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-reddit"></i> </a>
-            <a href="#"><i class="bi bi-linkedin"></i> </a>
+            <a href="#"><i class="bi bi-reddit"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
           </div>
           <div class="col-12 col-md-12 col-lg-2">
             <h4>USEFUL LINKS</h4>
