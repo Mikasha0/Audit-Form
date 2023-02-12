@@ -119,6 +119,9 @@ body {
   margin-bottom: 0;
   padding:0.2rem 0rem;
 }
+.card{
+  height: 100%;
+}
 @media (width <= 576px) {
   .head ul{
     display: none;
@@ -359,18 +362,6 @@ footer ul li a {
   background-blend-mode: multiply;
   background-position: top;
 }
-.our-services .container .row .card{
-  border-right: 1px solid #000;
-  border-bottom: 1px solid #000;
-  border-top: none;
-  border-left: none;
-}
-.our-services .container .row .col-12 {
-  border-right:none;
-  border-bottom: 1px solid #000;
-  border-top: none;
-  border-left: none;
-}
 .publications .container .row .card{
   border:1px solid var(--color-secondary);
   border-radius:0.8rem;
@@ -421,4 +412,18 @@ text-decoration: underline;
 }
 .about-us .container .row .card{
   border:none;
+}
+.our-services .container .row .card{
+  border-bottom:1px solid #00000037;
+  border-top:1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-radius: 0%;
+}
+.our-services .container .row .card2{
+  border-bottom:1px solid #00000037;
+  border-top:1px solid transparent;
+  border-left: 1px solid #00000037;
+  border-right: 1px solid #00000037;
+  border-radius: 0%;
 }
