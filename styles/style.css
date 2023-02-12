@@ -427,3 +427,26 @@ text-decoration: underline;
   border-right: 1px solid #00000037;
   border-radius: 0%;
 }
+.our-services .container .row .card .icons{
+  display: inline-block;
+  padding: 0.5rem 0.8rem;
+  font-size: var(--h4-fontsize);
+  background: var(--color-secondary);
+  color: #fff;
+  border-radius: 10%;;
+}
+.our-services .container .row .card h4{
+  padding:1.5rem 0;
+  margin-bottom: 0;
+}
+.our-services .container .row .our-services-border{
+  border-bottom: none;
+}
+@media (width <= 768px) {
+  .our-services .container .row .card{
+    border-bottom:1px solid #00000037;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+}
