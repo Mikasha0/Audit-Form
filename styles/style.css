@@ -416,3 +416,6 @@ text-decoration: underline;
 .career .container p:last-of-type{
   padding-top: 2rem;
 }
+.about-us .container .row span{
+  color: var(--color-secondary);
+}
