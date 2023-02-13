@@ -111,27 +111,30 @@ body {
   color:white;
   text-decoration: none;
 }
-.head ul li i{
-  /* padding-right: 1rem; */
-}
 .navbar-scrolled{
   background-color:white;
 }
-.head ul{
-  list-style: none;
-  text-align: center;
-  margin-bottom: 0;
-  padding:0.2rem 0rem;
+@media (width >=992px) {
+  .head ul{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0.3rem 0;
+  }
+  .head ul li i{
+    padding-right: 0.6rem;
+  }
 }
-.card{
-  height: 100%;
+@media (min-width: 300px) and (max-width: 992px) {
+  .head ul li{
+    display: none;
+  }
 }
-@media (width <= 576px) {
+@media (width <= 992px) {
   .head ul{
     display: none;
   }
 }
-
 .form-info .card {
     height: 100%;
     border: none;
@@ -368,6 +371,7 @@ footer ul li a {
 .publications .container .row .card{
   border:1px solid var(--color-secondary);
   border-radius:0.8rem;
+  height: 100%;
 }
 .publications .container .row .card-body .bordered-icon i{
   position: relative;
@@ -421,6 +425,9 @@ text-decoration: underline;
 }
 .about-us .container .row .card{
   border:none;
+}
+.about-us .container .col-md-6 a{
+  text-decoration: none;
 }
 .our-services .container .row .card{
   border-bottom:1px solid #00000037;
