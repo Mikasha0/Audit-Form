@@ -2,7 +2,7 @@ class MyHeader extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <div class="head container-fluid">
-      <ul class="d-sm-flex gap-md-4 gap-sm-0 gap-lg-5 justify-content-center">
+      <ul class="d-sm-flex gap-md-3 gap-sm-0 gap-lg-5 justify-content-center">
         <li>
           <a href=""><i class="bi bi-telephone"></i>+977 9805674141</a>
         </li>

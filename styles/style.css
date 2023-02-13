@@ -109,6 +109,10 @@ body {
 }
 .head ul li a{
   color:white;
+  text-decoration: none;
+}
+.head ul li i{
+  /* padding-right: 1rem; */
 }
 .navbar-scrolled{
   background-color:white;
@@ -297,7 +301,6 @@ footer ul li a {
   padding: 6rem;
   color: white;
   opacity: 0.6;
-  /* background-color: rgba(13, 61, 194, 0.863); */
   background-color: var(--color-primary);
   background-blend-mode: multiply;
   background-position: top;
@@ -404,6 +407,12 @@ text-decoration: underline;
 .section-help .container h3{
   color:#fff;
 }
+@media (width<=768px) {
+  .section-help .container .buttons .other-first-btn {
+    margin-top: 1rem;
+  }
+  
+}
 .career .container p:last-of-type{
   padding-top: 2rem;
 }
@@ -446,6 +455,13 @@ text-decoration: underline;
   .our-services .container .row .card{
     border:1px solid #00000037;
     border-width: 0 0 1px;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 762px){
+  .our-services .container .row .card{
+    border: 1px solid #00000037;
+    /* border-width: 1px 1px 1px; */
+
   }
 }
 .testimonials .swiper .swiper-slide .card{
