@@ -305,6 +305,10 @@ footer ul li a {
 .other-page p{
   color: white;
 }
+.other-page .container a{
+  text-decoration: none;
+  color: white;
+}
 .our-memories .row .card{
   padding:0.5rem;
 }
