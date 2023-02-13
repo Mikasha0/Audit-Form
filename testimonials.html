@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Testimonials</title>
     <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <section class="testimonials">
@@ -13,6 +17,123 @@
         <span>Testimonials</span>
         <h4>See What Our Customer Say About Us</h4>
       </div>
+      <div class="container">
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    Thank You for your service. I am very pleased with the
+                    result. I have seen exponencial growth in my business and
+                    its all thanks to your amazing service.
+                  </p>
+                  <div class="discription">
+                    <img
+                      src="./Image/back-img.jpg"
+                      className="rounded-circle my-2 "
+                      alt="..."
+                      style="width: 45px; height: 45px; border-radius: 50%"
+                    />
+                    <div class="info">
+                      <span>Emily Stones</span>
+                      <p>CEO, Marketing Guru</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    Thank You for your service. I am very pleased with the
+                    result. I have seen exponencial growth in my business and
+                    its all thanks to your amazing service.
+                  </p>
+                  <div class="discription">
+                    <img
+                      src="./Image/back-img.jpg"
+                      className="rounded-circle my-2 "
+                      alt="..."
+                      style="width: 45px; height: 45px; border-radius: 50%"
+                    />
+                    <div class="info">
+                      <span>Emily Stones</span>
+                      <p>CEO, Marketing Guru</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    Thank You for your service. I am very pleased with the
+                    result. I have seen exponencial growth in my business and
+                    its all thanks to your amazing service.
+                  </p>
+                  <div class="discription">
+                    <img
+                      src="./Image/back-img.jpg"
+                      className="rounded-circle my-2 "
+                      alt="..."
+                      style="width: 45px; height: 45px; border-radius: 50%"
+                    />
+                    <div class="info">
+                      <span>Emily Stones</span>
+                      <p>CEO, Marketing Guru</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+        </div>
+      </div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
+
+        // If we need pagination
+        // pagination: {
+        //   el: ".swiper-pagination",
+        // },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          576: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          991: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        },
+      });
+    </script>
   </body>
 </html>

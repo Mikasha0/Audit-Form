@@ -40,80 +40,33 @@ class MyHeader extends HTMLElement {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav gap-lg-4 ms-auto">
               <li class="nav-item">
-                <a href="index.html" class="nav-link">HOME</a>
+                <a href="home.html" class="nav-link">HOME</a>
               </li>
               <li class="nav-item">
-                <a href="index.html" class="nav-link">ABOUTUS</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  SERVICES
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="cdr-report-writing.html"
-                      >CDR Report Writing</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="career-episode-writing.html"
-                      >Career Episode Writing</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="summary-statement-engineer-australia.html"
-                      >Summary Statement</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="acs-rpl-report.html"
-                      >ACS RPL Report Writing</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="ka02-knowledge-assessment.html"
-                      >KA02 Knowledge Assessment</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="cdr-report-review-service-australia.html"
-                    >
-                      CDR Report Review Service in Australia</a
-                    >
-                  </li>
-                </ul>
+                <a href="about-us.html" class="nav-link">ABOUTUS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="anzsco-codes.html"> PUBLICATIONS</a>
+                <a href="our-services.html" class="nav-link">SERVICES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="australia-pr-points-calculator.html"
-                  >NEWS ROOM</a
+                <a class="nav-link" href="publications.html"> PUBLICATIONS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=""
+                  >NEWSROOM</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pricing.html">GALLERY</a>
+                <a class="nav-link" href="our-memories.html">GALLERY</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="cdr-report-samples.html">CAREER</a>
+                <a class="nav-link" href="career.html">CAREER</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="blog.html">BLOGS</a>
+                <a class="nav-link" href="blogs.html">BLOGS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">CONTACT US</a>
+                <a class="nav-link" href="contact-us.html">CONTACT US</a>
               </li>
             </ul>
           </div>

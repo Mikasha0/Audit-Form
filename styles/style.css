@@ -329,6 +329,8 @@ footer ul li a {
 }
 #swiper .swiper-slide .first-swiper-page{
   background-image: url("../Image/back-img.jpg");
+}
+#swiper .swiper-slide > *{
   background-size: cover;
   text-align: center;
   background-repeat: no-repeat;
@@ -341,26 +343,15 @@ footer ul li a {
 }
 #swiper .swiper-slide .second-swiper-page{
   background-image: url("../Image/Rectangle\ 2284.png");
-  background-size: cover;
-  text-align: center;
-  background-repeat: no-repeat;
-  padding: 6rem;
-  color: white;
-  opacity: 0.7;
-  background-color: var(--color-primary);
-  background-blend-mode: multiply;
-  background-position: top;
-}#swiper .swiper-slide .third-swiper-page{
+}
+#swiper .swiper-slide .third-swiper-page{
   background-image: url("../Image/Rectangle\ 2225.png");
-  background-size: cover;
-  text-align: center;
-  background-repeat: no-repeat;
-  padding: 6rem;
-  color: white;
-  opacity: 0.7;
-  background-color: var(--color-primary);
-  background-blend-mode: multiply;
-  background-position: top;
+}
+#swiper .swiper-slide .second-swiper-page h2{
+  font-size: var(--h1-fontsize);
+}
+#swiper .swiper-slide .third-swiper-page h2{
+  font-size: var(--h1-fontsize);
 }
 @media (width<=768px) {
   #swiper .swiper-slide .buttons .other-second-btn{
@@ -453,6 +444,28 @@ text-decoration: underline;
     border-width: 0 0 1px;
   }
 }
-.swiper-second {
-  position:static;
+.testimonials .swiper .swiper-slide .card{
+  border-radius:15px;
+}
+.testimonials .swiper .swiper-slide .discription{
+  display: flex;
+  align-items: center;
+}
+.testimonials .swiper .swiper-slide .discription .info{
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.testimonials .swiper .swiper-button-prev{
+  font-size:1px !important;
+  color:black;
+  background-color: var(--color-secondary);
+  border-radius: 50%;
+  padding: 3.5rem;
+}
+.testimonials .swiper .swiper-button-next{
+  font-size:1px !important;
+  color:black;
+  background-color: var(--color-secondary);
+  border-radius: 50%;
+  padding: 3.5rem;
 }
