@@ -419,8 +419,7 @@ text-decoration: underline;
 @media (width<=768px) {
   .section-help .container .buttons .other-first-btn {
     margin-top: 1rem;
-  }
-  
+  } 
 }
 .career .container p:last-of-type{
   padding-top: 2rem;
@@ -472,8 +471,6 @@ text-decoration: underline;
 @media screen and (max-width: 992px) and (min-width: 762px){
   .our-services .container .row .card{
     border: 1px solid #00000037;
-    /* border-width: 1px 1px 1px; */
-
   }
 }
 .testimonials .swiper .swiper-slide .card{
