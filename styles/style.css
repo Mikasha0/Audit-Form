@@ -473,6 +473,9 @@ text-decoration: underline;
     border: 1px solid #00000037;
   }
 }
+.testimonials .container {
+  position: relative !important;
+}
 .testimonials .swiper .swiper-slide .card{
   border-radius:15px;
 }
@@ -491,10 +494,15 @@ text-decoration: underline;
   border-radius: 50%;
   padding: 3.5rem;
 }
-.testimonials .swiper .swiper-button-next{
-  font-size:1px !important;
+.testimonials .container .swiper .swiper-button-next{
+  position: absolute !important;
+  font-size:12px !important;
   color:black;
   background-color: var(--color-secondary);
   border-radius: 50%;
   padding: 3.5rem;
+  top: -1rem;
+}
+.owlCarousel .owl-nav {
+  font-weight: 500;
 }
