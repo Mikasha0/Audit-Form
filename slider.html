@@ -22,19 +22,24 @@
     <link rel="stylesheet" href="styles/style.css" />
     <style>
       .owl .owl-nav {
-        color: #fff;
-        font-size: 28px;
-
+        color: white;
+        font-size: 22px;
         font-weight: 600;
       }
+
+      .owl-carousel .owl-nav.disabled {
+        display: block !important;
+      }
+
       .owl .owl-prev,
       .owl .owl-next {
         position: absolute;
         top: 40%;
-        height: 30px;
-        width: 25px;
+        height: 32px;
+        width: 32px;
         background-color: #0a9696 !important;
         /* border-radius: 100% !important; */
+        border-radius: 50% !important;
       }
       .owl .owl-prev span,
       .owl .owl-next span {
@@ -42,10 +47,14 @@
         top: 0%;
       }
       .owl .owl-prev {
-        left: -20px;
+        top: -40px;
+        /* left: -20px; */
+        right: 100px;
+        display: flex;
       }
       .owl .owl-next {
-        right: -20px;
+        top: -40px;
+        right: 50px;
       }
       .owl-carousel .owl-item img {
         width: auto;
@@ -66,7 +75,9 @@
   <body>
     <section class="owl">
       <div class="container">
-        <h2 class="text-center">Bootstrap owl crousel</h2>
+        <div class="col-6">
+          <h2 class="">Bootstrap owl crousel</h2>
+        </div>
 
         <div class="row">
           <div class="two-owl owl-carousel owl-theme">
@@ -112,9 +123,8 @@
         smartSpeed: 1800,
         margin: 10,
         navText: [
-          "<span class='bi bi-arrow-left-short'></span>",
-          ">",
-          "<span class='bi bi-arrow-right-short'> </span>",
+          "<span class='bi bi-chevron-left'> </span>",
+          "<span class='bi bi-chevron-right'> </span>",
         ],
         responsive: {
           0: {
