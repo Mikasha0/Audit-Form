@@ -393,6 +393,10 @@ footer ul li a {
   border-top: 2rem solid;
   border-left: 2rem solid transparent;
 }
+.publications .container .row .card-body .about-publication{
+  display: flex;
+  gap:1.5rem;
+}
 .publications .container .row .card-body p{
   padding:1.5rem 0.5rem 0.5rem 2.5rem;
 }
@@ -400,6 +404,7 @@ footer ul li a {
 color:var(--color-secondary);
 text-decoration: underline;
 }
+
 .section-help{
   background-color:var(--color-primary);
 }
