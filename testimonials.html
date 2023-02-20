@@ -25,22 +25,35 @@
     <section class="owl">
       <div class="container">
         <div class="col-6">
-          <h2 class="">Bootstrap owl crousel</h2>
+          <h2 class="">See What Our Customer Say About Us</h2>
         </div>
 
         <div class="row">
           <div class="two-owl owl-carousel owl-theme">
-            <div class="card">
-              <img src="./Image/back-img.jpg" class="img-fluid" />
-            </div>
-            <div class="card">
-              <img src="./Image/human2.jpg" class="img-fluid" />
-            </div>
-            <div class="card">
-              <img src="./Image/human2.jpg" class="img-fluid" />
-            </div>
-            <div class="card">
-              <img src="./Image/human2.jpg" class="img-fluid" />
+            <div class="card p-3" style="border-radius: 15px">
+              <div class="card-body">
+                <p>
+                  Thank You for your service. I am very pleased with the result.
+                  I have seen exponential growth in my business and its all
+                  thanks to your amazing service.
+                </p>
+                <div class="about-customer d-flex align-items-center">
+                  <img
+                    src="./Image/back-img.jpg"
+                    class="img-fluid"
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      border-radius: 50%;
+                      margin-right: 0.5rem;
+                    "
+                  />
+                  <div class="customer-info">
+                    <h4 style="margin-bottom: 0">Emily Stones</h4>
+                    <p style="margin-bottom: 0">CEO, Marketing Guru</p>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="card">
               <img src="./Image/human2.jpg" class="img-fluid" />
@@ -67,7 +80,7 @@
     <script>
       $(".two-owl").owlCarousel({
         loop: true,
-        autoplay: true,
+        autoplay: false,
         autoplayTimeout: 1820,
         smartSpeed: 1800,
         margin: 10,
@@ -83,7 +96,7 @@
             items: 3,
           },
           1000: {
-            items: 5,
+            items: 3,
           },
         },
       });
