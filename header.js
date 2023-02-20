@@ -21,7 +21,7 @@ class MyHeader extends HTMLElement {
     </div>
     <header class="sticky-top">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-top py-4 ">
+        <nav class="navbar navbar-expand-lg navbar-top py-3 ">
           <a class="navbar-brand" href="index.html">
             <!-- <img class="logo" src="./img/logo.webp" alt="..." /> -->
             <span class="">Logo</span>

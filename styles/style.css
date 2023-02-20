@@ -33,6 +33,9 @@ html {
   border-radius: 0.6rem;
   border: none;
 }
+/* .container{
+  padding:0 3rem 0;
+} */
 .other-first-btn{
   display: inline-block;
   font-size: var(--p-h4-fontsize);
@@ -110,6 +113,11 @@ body {
 .head ul li a{
   color:white;
   text-decoration: none;
+  font-size:var(--p-h4-fontsize)
+}
+.sticky-top .container a{
+  font-size:14px;
+
 }
 .navbar-scrolled{
   background-color:white;
