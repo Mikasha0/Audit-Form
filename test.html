@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/submit-form" method="post" id="my-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" />
+      <br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" />
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+  <script>
+    const form = document.getElementById("my-form");
+
+    form.addEventListener("submit", function (event) {
+      event.preventDefault(); // Prevent the form from submitting via HTTP
+
+      // Get the form data
+      const formData = new FormData(form);
+
+      // Do something with the form data, such as send it to a server via AJAX
+      console.log(formData.get("name"));
+      console.log(formData.get("email"));
+    });
+  </script>
+</html>
